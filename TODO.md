@@ -1,0 +1,16 @@
+- clearly UI and UX
+- implement a real UI list and not simple list the items
+- add db constraints
+- redesign the shema to make selection seperate for each user
+- create an index
+- unify error system and work on better logging
+- add pagination on lists
+- decouple objects based on the layer (dao, model, entity)
+- add http cashing
+- add server side cache to make less calls to the db
+- use a tool (swr, react query) to use client side cashing to not fetch the data again and again
+- add an api contract
+- add validation on env variables to stop the startup if the variables are not available
+- display user selection
+- add tests (integration and unit)
+- add storybook for the components
